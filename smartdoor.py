@@ -45,8 +45,8 @@ def handle(msg):
 		  bot.sendMessage(chat_id, 'The door opened')
 		  BUZZER.on()
 		  time.sleep(0.1)
-	      BUZZER.off()
-	      time.sleep(0.1)
+	          BUZZER.off()
+	          time.sleep(0.1)
 		  showMessage = 1
 		  pwm1.ChangeDutyCycle(50)
 		  pwm2.ChangeDutyCycle(0)
@@ -62,8 +62,8 @@ def handle(msg):
 		  bot.sendMessage(chat_id, 'The door is closed')
 		  BUZZER.on()
 		  time.sleep(0.1)
-	      BUZZER.off()
-	      time.sleep(0.1)
+	          BUZZER.off()
+	          time.sleep(0.1)
 		  showMessage = 2
 		  pwm1.ChangeDutyCycle(0)
 		  pwm2.ChangeDutyCycle(50)
