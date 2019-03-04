@@ -77,7 +77,7 @@ def handle(msg):
 		 
 	  
 
-bot = telepot.Bot('702597925:AAEdwZCj1T_RGJFsWpQBNbMT4LLIuH7sdpc')
+bot = telepot.Bot('Your Telegram Token')
 bot.message_loop(handle)
 
 while 1:
