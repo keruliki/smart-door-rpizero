@@ -1,3 +1,6 @@
+# Please install Telepot Packages before run this code
+# pip install telepot
+
 import RPi.GPIO as GPIO   # Import the GPIO library.
 import time
 from gpiozero import LED, Button, Buzzer
