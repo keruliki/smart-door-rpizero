@@ -1,5 +1,5 @@
 # Please install Telepot Packages before run this code
-# pip install telepot
+# Run this code "pip install telepot" on your Raspberry Pi Terminal
 
 import RPi.GPIO as GPIO   # Import the GPIO library.
 import time
